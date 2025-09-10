@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/TienNguyen3711/SIT753_8.2CDevSecOps.git'
+                git branch: 'main', url: 'https://github.com/TienNguyen3711/8.2CDevSecOps.git'
             }
         }
 
